@@ -1,0 +1,202 @@
+<template>
+    <!-- why-choose Area -->
+    <section class="why-choose">
+        <div class="content-box text-center">
+            <h2>Why Choose Pineseed</h2>
+            <p>Choose that Perfect Service for your business</p>
+        </div>
+        <div class="bac-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="choose-item text-center">
+                            <a href="#!">
+                                <div class="icon-area">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <div class="choose-text">
+                                    <h3>Data Migration</h3>
+                                    <p>HostCluster’s flexible Managed
+                                        Backup Solutions will help simplify
+                                        the protection of your data …
+                                        Bring to the table survival strategies,
+                                        to ensure proactive domination.</p>
+                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="choose-item text-center margin-arro">
+                            <a href="#!">
+                                <div class="icon-area">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="choose-text">
+                                    <h3>Data Migration</h3>
+                                    <p>HostCluster’s flexible Managed
+                                        Backup Solutions will help simplify
+                                        the protection of your data …
+                                        Bring to the table survival strategies,
+                                        to ensure proactive domination.</p>
+                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="choose-item text-center choose-margin-bottm">
+                            <a href="#!">
+                                <div class="icon-area">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="choose-text">
+                                    <h3>Data Migration</h3>
+                                    <p>HostCluster’s flexible Managed
+                                        Backup Solutions will help simplify
+                                        the protection of your data …
+                                        Bring to the table survival strategies,
+                                        to ensure proactive domination.</p>
+                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="choose-item text-center choose-margin">
+                            <a href="#!">
+                                <div class="icon-area">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <div class="choose-text">
+                                    <h3>Data Migration</h3>
+                                    <p>HostCluster’s flexible Managed
+                                        Backup Solutions will help simplify
+                                        the protection of your data …
+                                        Bring to the table survival strategies,
+                                        to ensure proactive domination.</p>
+                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="choose-item text-center choose-margin">
+                            <a href="#!">
+                                <div class="icon-area">
+                                    <i class="fab fa-get-pocket"></i>
+                                </div>
+                                <div class="choose-text">
+                                    <h3>Data Migration</h3>
+                                    <p>HostCluster’s flexible Managed
+                                        Backup Solutions will help simplify
+                                        the protection of your data …
+                                        Bring to the table survival strategies,
+                                        to ensure proactive domination.</p>
+                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="choose-item text-center choose-margin">
+                            <a href="#!">
+                                <div class="icon-area">
+                                    <i class="far fa-file-code"></i>
+                                </div>
+                                <div class="choose-text">
+                                    <h3>Data Migration</h3>
+                                    <p>HostCluster’s flexible Managed
+                                        Backup Solutions will help simplify
+                                        the protection of your data …
+                                        Bring to the table survival strategies,
+                                        to ensure proactive domination.</p>
+                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script>
+export default {
+    name: 'WhyChoose'
+}
+</script>
+
+<style>
+/* Why Choose Area */
+.why-choose {
+  padding-top: 150px 0 0 0;
+}
+.bac-wrapper {
+  background-color: #81da9e;
+  padding: 100px 0 50px 0;
+}
+.choose-item {
+  background: #fff;
+  padding: 40px 30px;
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+.choose-item:hover {
+  background: #81da9e;
+}
+.icon-area {
+  margin-top: -105px;
+}
+.icon-area i {
+  font-size: 55px;
+  color: #fff;
+  background: var(--theme-color);
+  height: 130px;
+  width: 130px;
+  line-height: 109px;
+  position: relative;
+  border-radius: 50%;
+  border: 10px solid #81da9e;
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+.choose-item:hover .icon-area i {
+  border: 10px solid #0000002b;
+}
+.choose-text h3 {
+  color: var(--theme-color);
+  margin-top: 30px;
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+.choose-item:hover .choose-text h3 {
+  color: #fff;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+}
+.choose-text p {
+  color: var(--theme-p-color);
+  margin-top: 20px;
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+.choose-item:hover .choose-text p {
+  color: #fff;
+}
+.choose-item:hover .choose-btn {
+  background: #000;
+}
+.choose-margin {
+  margin-top: 100px;
+}
+</style>

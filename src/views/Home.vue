@@ -1,16 +1,40 @@
 <template>
     <div class="home-page">
-        <HomeInner/>
+        <Banner/>
+        <HostingSolution/>
+        <WhyChoose/>
+        <About/>
+        <PricingPlan/>
+        <PineseedDomain/>
+        <Testimonial/>
+        <Faq/>
+        <CallToAction/>
     </div>
 </template>
 
 <script>
-import HomeInner from '../components/HomeInner'
+import Banner from '../components/Banner.vue'
+import HostingSolution from '../components/HostingSolution.vue'
+import WhyChoose from '../components/WhyChoose.vue'
+import About from '../components/About.vue'
+import PricingPlan from '../components/PricingPlan.vue'
+import PineseedDomain from '../components/PineseedDomain.vue'
+import Testimonial from '../components/Testimonial.vue'
+import Faq from '../components/Faq.vue'
+import CallToAction from '../components/CallToAction.vue'
 
 export default {
     name: 'Home',
     components: {
-        HomeInner,
+        Banner,
+        HostingSolution,
+        WhyChoose,
+        About,
+        PricingPlan,
+        PineseedDomain,
+        Testimonial,
+        Faq,
+        CallToAction,
     }
 }
 </script>
