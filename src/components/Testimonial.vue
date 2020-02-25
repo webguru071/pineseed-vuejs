@@ -148,23 +148,20 @@ export default {
   margin-bottom: 20px;
 }
 .testimonial-item-01 .text-wrapper .cmnter-name {
-  font-family: var(--body-font);
+  /* font-family: var(--body-font); */
   font-size: 14px;
-  color: var(--main-color-one);
+  /* color: var(--main-color-one); */
   font-weight: 500;
   letter-spacing: 1px;
 }
-.testimonial-item-01 .text-wrapper .cmnter-name.home-2-cmnt {
-  color: var(--home-2-color);
-}
 .testimonial-item-01 .text-wrapper .posted {
-  color: var(--heading-color);
+  /* color: var(--heading-color); */
   font-size: 13px !important;
   letter-spacing: 0.5px !important;
   font-weight: 300 !important;
 }
 
-testimonial-sec-comment-card-wrapper {
+.testimonial-sec-comment-card-wrapper {
   position: relative;
 }
 .testimonial-sec-comment-card-wrapper .comment-card-quote {
@@ -203,7 +200,7 @@ testimonial-sec-comment-card-wrapper {
   .comments-card-container
   .comments {
   font-size: 14px;
-  font-family: var(--open-sans);
+  /* font-family: var(--open-sans); */
   font-weight: 400;
   line-height: 30px;
 }
@@ -225,7 +222,7 @@ testimonial-sec-comment-card-wrapper {
   .comments
   span::before {
   font-size: 35px;
-  color: var(--main-color-one);
+  /* color: var(--main-color-one); */
   margin: 0;
 }
 .testimonial-sec-comment-card-wrapper .cmnter-name-card-wrapper {
@@ -267,15 +264,15 @@ testimonial-sec-comment-card-wrapper {
   .cmnter-info-wrapper
   .cmnter-name {
   font-size: 16px;
-  font-family: var(--libre-font);
-  color: var(--black);
+  /* font-family: var(--libre-font);
+  color: var(--black); */
 }
 .testimonial-sec-comment-card-wrapper
   .cmnter-name-card-wrapper
   .cmnter-info-wrapper
   .cmnter-post {
   font-size: 14px;
-  font-family: var(--libre-font);
+  /* font-family: var(--libre-font); */
   color: #909090;
   font-weight: 200;
 }
@@ -296,7 +293,7 @@ testimonial-sec-comment-card-wrapper {
 .slick-dots li {
   margin: 0 3px;
 }
-slick-dots li button:before {
+.slick-dots li button:before {
   font-family: "slick";
   font-size: 15px;
   line-height: 21px;
