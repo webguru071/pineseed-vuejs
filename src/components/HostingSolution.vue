@@ -2,58 +2,31 @@
     <!-- solution Area -->
     <section class="solution-area section">
         <div class="content-box text-center">
-            <h2>Perfect Hosting Soultion</h2>
-            <p>Our featured Service that we Provide</p>
+            <SectionMainTitle MainTitle = "Perfect Hosting Soultion" />
+            <SectionSubTitle SubTitle = "Our featured Service that we Provide" />
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="solution-items text-center">
-                        <a href="#!">
-                            <img src="assest/img/hostcluster-1.png" alt="img">
-                        <h3>Web Hosting</h3>
-                        <p>HostCluster offers hosting
-                            plans that are secure, reliable, and
-                            performing for just <span>$9.88/year</span> .</p>
-                            <a href="#!" class="btn btn-read-more">Read More</a>
-                        </a>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="solution-items text-center site-margin-two">
-                        <a href="#!">
-                            <img src="assest/img/hostcluster-2.png" alt="img">
-                        <h3>Hosting Center</h3>
-                        <p>HostCluster offers hosting
-                            plans that are secure, reliable, and
-                            performing for just <span>$7.88/year</span> .</p>
-                            <a href="#!" class="btn btn-read-more">Read More</a>
-                        </a>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="solution-items text-center site-margin">
-                        <a href="#!">
-                            <img src="assest/img/hostcluster-3.png" alt="img">
-                        <h3>Cloud Hosting</h3>
-                        <p>HostCluster offers hosting
-                            plans that are secure, reliable, and
-                            performing for just <span>$3.88/year</span> .</p>
-                            <a href="#!" class="btn btn-read-more">Read More</a>
-                        </a>
-                        
-                    </div>
-                </div>
+              <HostingSolutionBox/>
+              <HostingSolutionBox/>
+              <HostingSolutionBox/>
             </div>
         </div>
     </section>
 </template>
 
 <script>
+import SectionMainTitle from './SectionMainTitle'
+import SectionSubTitle from './SectionSubTitle'
+import HostingSolutionBox from './HostingSolutionBox'
+
 export default {
-    name: 'HostingSolution'
+    name: 'HostingSolution',
+      components: {
+        SectionMainTitle,
+        SectionSubTitle,
+        HostingSolutionBox
+    }
 }
 </script>
 
@@ -66,21 +39,6 @@ export default {
   background-size: contain;
   padding: 150px 0;
 }
-.content-box {
-  padding-bottom: 100px;
-}
-.content-box h2 {
-  font-size: 36px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: var(--theme-color);
-}
-.content-box p {
-  font-size: 18px;
-  color: var(--theme-p-color);
-  padding-top: 5px;
-}
-
 .solution-items {
   -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);

@@ -1,5 +1,4 @@
 <template>
-
     <!-- About Area -->
     <section class="about-area">
         <div class="container">
@@ -11,8 +10,8 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="about-text">
-                        <p>About Us</p>
-                        <h2>We Are With You Every Step Of The Way</h2>
+                        <SectionSubTitle SubTitle = "About Us" />
+                        <SectionMainTitle MainTitle = "We Are With You Every Step Of The Way" />
                     </div>
                     <div class="about-inner-text">
                         
@@ -24,12 +23,17 @@
             </div>
         </div>
     </section>
-
 </template>
 
 <script>
+import SectionMainTitle from './SectionMainTitle'
+import SectionSubTitle from './SectionSubTitle'
 export default {
-    name: 'About'
+    name: 'About',
+    components: {
+      SectionMainTitle,
+      SectionSubTitle
+    }
 }
 </script>
 

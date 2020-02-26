@@ -2,8 +2,9 @@
     <!-- Pricing Area -->
     <section class="pricing-plan">
         <div class="content-box text-center">
-            <h2>Why Choose Pineseed</h2>
-            <p>Choose that Perfect Service for your business</p>
+            <SectionMainTitle MainTitle = "Why Choose Pineseed" />
+            <SectionSubTitle SubTitle = "Choose that Perfect Service for your business" />
+            
         </div>
         <div class="container">
             <div class="row">
@@ -104,8 +105,16 @@
 </template>
 
 <script>
+
+import SectionMainTitle from './SectionMainTitle'
+import SectionSubTitle from './SectionSubTitle'
+
 export default {
-    name: 'PricingPlan'
+    name: 'PricingPlan',
+    components: {
+      SectionMainTitle,
+      SectionSubTitle
+    }
 }
 </script>
 

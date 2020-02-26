@@ -131,6 +131,23 @@ p {
   line-height: 24px;
   letter-spacing: 0.25px;
 }
+/*---- Section Title Start ----*/
+  .content-box {
+    padding-bottom: 100px;
+  }
+  .content-box h2 {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--theme-color);
+  }
+  .content-box p {
+    font-size: 18px;
+    color: var(--theme-p-color);
+    padding-top: 5px;
+  }
+/*---- Section Title End ----*/
+
 /*---- Preloader ----*/
 #preloader {
   background-color: #fff;

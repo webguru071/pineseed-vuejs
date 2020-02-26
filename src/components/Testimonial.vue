@@ -2,8 +2,8 @@
     <!--Testimonial Area -->
     <section class="testimonial-area">  
         <div class="content-box text-center">
-            <h2>Pineseed DOMAIN FOR YOU</h2>
-            <p>Choose the perfect solution for your business</p>
+            <SectionMainTitle MainTitle = "Pineseed DOMAIN FOR YOU" />
+            <SectionSubTitle SubTitle = "Choose the perfect solution for your business" />
         </div>
         <div class="container">
             <div class="row">
@@ -112,8 +112,16 @@
 </template>
 
 <script>
+
+import SectionMainTitle from './SectionMainTitle'
+import SectionSubTitle from './SectionSubTitle'
+
 export default {
-    name: 'Testimonial'
+    name: 'Testimonial',
+    components: {
+      SectionMainTitle,
+      SectionSubTitle
+    }
 }
 </script>
 
@@ -148,14 +156,11 @@ export default {
   margin-bottom: 20px;
 }
 .testimonial-item-01 .text-wrapper .cmnter-name {
-  /* font-family: var(--body-font); */
   font-size: 14px;
-  /* color: var(--main-color-one); */
   font-weight: 500;
   letter-spacing: 1px;
 }
 .testimonial-item-01 .text-wrapper .posted {
-  /* color: var(--heading-color); */
   font-size: 13px !important;
   letter-spacing: 0.5px !important;
   font-weight: 300 !important;
@@ -200,7 +205,6 @@ export default {
   .comments-card-container
   .comments {
   font-size: 14px;
-  /* font-family: var(--open-sans); */
   font-weight: 400;
   line-height: 30px;
 }
@@ -222,7 +226,6 @@ export default {
   .comments
   span::before {
   font-size: 35px;
-  /* color: var(--main-color-one); */
   margin: 0;
 }
 .testimonial-sec-comment-card-wrapper .cmnter-name-card-wrapper {
@@ -264,15 +267,12 @@ export default {
   .cmnter-info-wrapper
   .cmnter-name {
   font-size: 16px;
-  /* font-family: var(--libre-font);
-  color: var(--black); */
 }
 .testimonial-sec-comment-card-wrapper
   .cmnter-name-card-wrapper
   .cmnter-info-wrapper
   .cmnter-post {
   font-size: 14px;
-  /* font-family: var(--libre-font); */
   color: #909090;
   font-weight: 200;
 }

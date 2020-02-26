@@ -2,8 +2,8 @@
     <!-- FAqs Area -->
     <section class="faqs">
         <div class="content-box text-center">
-            <h2>FREQUENTLY ASKED QUESTION</h2>
-            <p>Our Featured Service that We Provides</p>
+            <SectionMainTitle MainTitle = "FREQUENTLY ASKED QUESTION" />
+            <SectionSubTitle SubTitle = "Our Featured Service that We Provides" />
         </div>
         <div class="container">
             <div class="row">
@@ -95,8 +95,15 @@
 </template>
 
 <script>
+import SectionMainTitle from './SectionMainTitle'
+import SectionSubTitle from './SectionSubTitle'
+
 export default {
-    name: 'Faq'
+    name: 'Faq',
+    components: {
+      SectionMainTitle,
+      SectionSubTitle
+    }
 }
 </script>
 

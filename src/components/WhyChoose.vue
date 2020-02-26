@@ -2,8 +2,8 @@
     <!-- why-choose Area -->
     <section class="why-choose">
         <div class="content-box text-center">
-            <h2>Why Choose Pineseed</h2>
-            <p>Choose that Perfect Service for your business</p>
+            <SectionMainTitle MainTitle = "Why Choose Pineseed" />
+            <SectionSubTitle SubTitle = "Choose that Perfect Service for your business" />
         </div>
         <div class="bac-wrapper">
             <div class="container">
@@ -123,8 +123,15 @@
 </template>
 
 <script>
+import SectionMainTitle from './SectionMainTitle'
+import SectionSubTitle from './SectionSubTitle'
+
 export default {
-    name: 'WhyChoose'
+    name: 'WhyChoose',
+    components: {
+      SectionMainTitle,
+      SectionSubTitle
+    }
 }
 </script>
 

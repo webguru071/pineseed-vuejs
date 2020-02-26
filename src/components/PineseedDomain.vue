@@ -2,8 +2,8 @@
     <!-- pineseed domain area -->
     <section class="pineseed-domain">
         <div class="content-box text-center">
-            <h2>Pineseed DOMAIN FOR YOU</h2>
-            <p>Choose the perfect solution for your business</p>
+            <SectionSubTitle SubTitle = "Choose the perfect solution for your business" />
+            <SectionMainTitle MainTitle = "Pineseed DOMAIN FOR YOU" />
         </div>
         <div class="container">
             <div class="tabs-button-area">
@@ -155,8 +155,16 @@
 </template>
 
 <script>
+
+import SectionMainTitle from './SectionMainTitle'
+import SectionSubTitle from './SectionSubTitle'
+
 export default {
-    name: 'PineseedDomain'
+    name: 'PineseedDomain',
+    components: {
+      SectionMainTitle,
+      SectionSubTitle
+    }
 }
 </script>
 
