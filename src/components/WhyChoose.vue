@@ -8,114 +8,41 @@
         <div class="bac-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="choose-item text-center">
-                            <a href="#!">
-                                <div class="icon-area">
-                                    <i class="fas fa-exchange-alt"></i>
-                                </div>
-                                <div class="choose-text">
-                                    <h3>Data Migration</h3>
-                                    <p>HostCluster’s flexible Managed
-                                        Backup Solutions will help simplify
-                                        the protection of your data …
-                                        Bring to the table survival strategies,
-                                        to ensure proactive domination.</p>
-                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="choose-item text-center margin-arro">
-                            <a href="#!">
-                                <div class="icon-area">
-                                    <i class="fas fa-shield-alt"></i>
-                                </div>
-                                <div class="choose-text">
-                                    <h3>Data Migration</h3>
-                                    <p>HostCluster’s flexible Managed
-                                        Backup Solutions will help simplify
-                                        the protection of your data …
-                                        Bring to the table survival strategies,
-                                        to ensure proactive domination.</p>
-                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="choose-item text-center choose-margin-bottm">
-                            <a href="#!">
-                                <div class="icon-area">
-                                    <i class="fas fa-database"></i>
-                                </div>
-                                <div class="choose-text">
-                                    <h3>Data Migration</h3>
-                                    <p>HostCluster’s flexible Managed
-                                        Backup Solutions will help simplify
-                                        the protection of your data …
-                                        Bring to the table survival strategies,
-                                        to ensure proactive domination.</p>
-                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="choose-item text-center choose-margin">
-                            <a href="#!">
-                                <div class="icon-area">
-                                    <i class="fas fa-server"></i>
-                                </div>
-                                <div class="choose-text">
-                                    <h3>Data Migration</h3>
-                                    <p>HostCluster’s flexible Managed
-                                        Backup Solutions will help simplify
-                                        the protection of your data …
-                                        Bring to the table survival strategies,
-                                        to ensure proactive domination.</p>
-                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="choose-item text-center choose-margin">
-                            <a href="#!">
-                                <div class="icon-area">
-                                    <i class="fab fa-get-pocket"></i>
-                                </div>
-                                <div class="choose-text">
-                                    <h3>Data Migration</h3>
-                                    <p>HostCluster’s flexible Managed
-                                        Backup Solutions will help simplify
-                                        the protection of your data …
-                                        Bring to the table survival strategies,
-                                        to ensure proactive domination.</p>
-                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="choose-item text-center choose-margin">
-                            <a href="#!">
-                                <div class="icon-area">
-                                    <i class="far fa-file-code"></i>
-                                </div>
-                                <div class="choose-text">
-                                    <h3>Data Migration</h3>
-                                    <p>HostCluster’s flexible Managed
-                                        Backup Solutions will help simplify
-                                        the protection of your data …
-                                        Bring to the table survival strategies,
-                                        to ensure proactive domination.</p>
-                                        <a href="#!" class="btn btn-read-more choose-btn">Read More</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    <WhyChooseBox title="Data Migration" text="HostCluster’s flexible Managed
+                        Backup Solutions will help simplify
+                        the protection of your data …
+                        Bring to the table survival strategies,
+                        to ensure proactive domination." buttonValue="Read More" />
+
+                    <WhyChooseBox title="Data Migration" text="HostCluster’s flexible Managed
+                        Backup Solutions will help simplify
+                        the protection of your data …
+                        Bring to the table survival strategies,
+                        to ensure proactive domination." buttonValue="Read More" />
+
+                    <WhyChooseBox title="Data Migration" text="HostCluster’s flexible Managed
+                        Backup Solutions will help simplify
+                        the protection of your data …
+                        Bring to the table survival strategies,
+                        to ensure proactive domination." buttonValue="Read More" />
+
+                    <WhyChooseBox title="Data Migration" text="HostCluster’s flexible Managed
+                        Backup Solutions will help simplify
+                        the protection of your data …
+                        Bring to the table survival strategies,
+                        to ensure proactive domination." buttonValue="Read More" />
+
+                    <WhyChooseBox title="Data Migration" text="HostCluster’s flexible Managed
+                        Backup Solutions will help simplify
+                        the protection of your data …
+                        Bring to the table survival strategies,
+                        to ensure proactive domination." buttonValue="Read More" />
+
+                    <WhyChooseBox title="Data Migration" text="HostCluster’s flexible Managed
+                        Backup Solutions will help simplify
+                        the protection of your data …
+                        Bring to the table survival strategies,
+                        to ensure proactive domination." buttonValue="Read More" />
                 </div>
             </div>
         </div>
@@ -125,12 +52,14 @@
 <script>
 import SectionMainTitle from './SectionMainTitle'
 import SectionSubTitle from './SectionSubTitle'
+import WhyChooseBox from './WhyChooseBox'
 
 export default {
     name: 'WhyChoose',
     components: {
       SectionMainTitle,
-      SectionSubTitle
+      SectionSubTitle,
+      WhyChooseBox
     }
 }
 </script>
@@ -142,7 +71,7 @@ export default {
 }
 .bac-wrapper {
   background-color: #81da9e;
-  padding: 100px 0 50px 0;
+  padding: 100px 0 5px 0;
 }
 .choose-item {
   background: #fff;
@@ -153,6 +82,7 @@ export default {
   -webkit-transition: 0.4s all;
   -o-transition: 0.4s all;
   transition: 0.4s all;
+  margin-bottom: 95px;
 }
 .choose-item:hover {
   background: #81da9e;

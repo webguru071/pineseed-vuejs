@@ -14,10 +14,9 @@
                         <SectionMainTitle MainTitle = "We Are With You Every Step Of The Way" />
                     </div>
                     <div class="about-inner-text">
-                        
-                        <p>Whether you are looking for a personal website hosting plan or a business website hosting plan, services will not only help you achieve your overall website goals, but will also provide you with the confidence you need in knowing that you are partnered with a reliable and secure website hosting platform.</p>
-                        <p>We are one of the easiest website hosting platforms to use, and remain committed to providing our customers with one of the best hosting solutions on the market.</p>
-                        <a href="#!" class="btn btn-read-more">Read More</a>
+                      <DefaultParagraph defaultText="Whether you are looking for a personal website hosting plan or a business website hosting plan, services will not only help you achieve your overall website goals, but will also provide you with the confidence you need in knowing that you are partnered with a reliable and secure website hosting platform." />
+                      <DefaultParagraph defaultText="We are one of the easiest website hosting platforms to use, and remain committed to providing our customers with one of the best hosting solutions on the market." />
+                        <router-link  to="#!" class="btn btn-read-more">Read More</router-link >
                     </div>
                 </div>
             </div>
@@ -28,11 +27,14 @@
 <script>
 import SectionMainTitle from './SectionMainTitle'
 import SectionSubTitle from './SectionSubTitle'
+import DefaultParagraph from './default-components/DefaultParagraph'
+
 export default {
     name: 'About',
     components: {
       SectionMainTitle,
-      SectionSubTitle
+      SectionSubTitle,
+      DefaultParagraph
     }
 }
 </script>

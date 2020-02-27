@@ -7,9 +7,30 @@
         </div>
         <div class="container">
             <div class="row">
-              <HostingSolutionBox/>
-              <HostingSolutionBox/>
-              <HostingSolutionBox/>
+              <!-- Here imageUrl and ButtonUrl not working. I will Remove theme Later -->
+              <HostingSolutionBox
+               imageUrl= "/assest/img/hostcluster-1.png"
+               title="Web Hosting"
+               text="HostCluster offers hosting
+                plans that are secure, reliable, and
+                performing for just."
+                textInner="$9.88/year" ButtonUrl="https://google.com" buttonValue="Read More" />
+
+              <HostingSolutionBox
+               imageUrl= "/assest/img/hostcluster-1.png"
+               title="Hosting Center"
+               text="HostCluster offers hosting
+                plans that are secure, reliable, and
+                performing for just."
+                textInner="$2.58/year" ButtonUrl="https://amazon.com" buttonValue="Read More" />
+
+              <HostingSolutionBox
+               imageUrl= "/assest/img/hostcluster-1.png"
+               title="Cloud Hosting"
+               text="HostCluster offers hosting
+                plans that are secure, reliable, and
+                performing for just."
+                textInner="$3.86/year" ButtonUrl="https://alibaba.com" buttonValue="Read More" />
             </div>
         </div>
     </section>
