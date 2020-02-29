@@ -8,97 +8,9 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="pricing-card">
-                        <div class="pricing-card-img-wrapper ">
-                            <div class="pricing-card-img" style="background-image:url(assest/img/stand.png);"></div>
-                        </div>
-                        <div class="pricing-card-content margin-top-20">
-                            <div class="pricing-card-title-wrapper">
-                                <h4 class="pricing-card-title">Standard</h4>
-                            </div>
-                            <div class="pricing-card-list-wrapper margin-top-20">
-                            <div class="pricing-card-list">
-                                    <ul>
-                                        <li>01 GB Space</li>
-                                        <li>1 Free Domain</li>
-                                        <li>300 GB SSD Disk</li>
-                                        <li>2TB Bandwidth</li>
-                                        <li>Weekly Backups</li>
-                                        <li>Unlimited Support</li>
-                                    </ul>
-                            </div>
-                            </div>
-                            <div class="pricing-card-currency-wrapper  margin-top-30">
-                                <h3 class="pricing-card-currency">$19<span>/mo</span></h3>
-                            </div>
-                        </div>
-                        <div class="pricing-card-btn-wrapper margin-top-40 margin-bottom-20">
-                            <a href="#!" class="btn btn-read-more pricing-btn">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="pricing-card price-active">
-                        <div class="pricing-card-img-wrapper ">
-                            <div class="pricing-card-img" style="background-image:url(assest/img/popular.png);"></div>
-                        </div>
-                        <div class="pricing-card-content margin-top-20">
-                            <div class="pricing-card-title-wrapper">
-                                <h4 class="pricing-card-title">POPULAR</h4>
-                            </div>
-                            <div class="pricing-card-list-wrapper margin-top-20">
-                            <div class="pricing-card-list">
-                                    <ul>
-                                        <li>01 GB Space</li>
-                                        <li>1 Free Domain</li>
-                                        <li>300 GB SSD Disk</li>
-                                        <li>2TB Bandwidth</li>
-                                        <li>Weekly Backups</li>
-                                        <li>Unlimited Support</li>
-                                    </ul>
-                            </div>
-                            </div>
-                            <div class="pricing-card-currency-wrapper  margin-top-30">
-                                <h3 class="pricing-card-currency">$19<span>/mo</span></h3>
-                            </div>
-                        </div>
-                        <div class="pricing-card-btn-wrapper margin-top-40 margin-bottom-20">
-                            <a href="#!" class="btn btn-read-more pricing-btn">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="pricing-card">
-                        <div class="pricing-card-img-wrapper ">
-                            <div class="pricing-card-img" style="background-image:url(assest/img/pro.png);"></div>
-                        </div>
-                        <div class="pricing-card-content margin-top-20">
-                            <div class="pricing-card-title-wrapper">
-                                <h4 class="pricing-card-title">PRO</h4>
-                            </div>
-                            <div class="pricing-card-list-wrapper margin-top-20">
-                            <div class="pricing-card-list">
-                                    <ul>
-                                        <li>01 GB Space</li>
-                                        <li>1 Free Domain</li>
-                                        <li>300 GB SSD Disk</li>
-                                        <li>2TB Bandwidth</li>
-                                        <li>Weekly Backups</li>
-                                        <li>Unlimited Support</li>
-                                    </ul>
-                            </div>
-                            </div>
-                            <div class="pricing-card-currency-wrapper  margin-top-30">
-                                <h3 class="pricing-card-currency">$19<span>/mo</span></h3>
-                            </div>
-                        </div>
-                        <div class="pricing-card-btn-wrapper margin-top-40 margin-bottom-20">
-                            <a href="#!" class="btn btn-read-more pricing-btn">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                
+              <PricingPlanBox title="Standard" priceCurrency="$19" priceCurrencyInner="/mo" buttonValue="Read More" />
+              <PricingPlanBox title="POPULAR" priceCurrency="$19" priceCurrencyInner="/mo" buttonValue="Read More" />
+              <PricingPlanBox title="PRO" priceCurrency="$19" priceCurrencyInner="/mo" buttonValue="Read More" />  
             </div>
         </div>
     </section>
@@ -108,12 +20,14 @@
 
 import SectionMainTitle from './SectionMainTitle'
 import SectionSubTitle from './SectionSubTitle'
+import PricingPlanBox from './PricingPlanBox'
 
 export default {
     name: 'PricingPlan',
     components: {
       SectionMainTitle,
-      SectionSubTitle
+      SectionSubTitle,
+      PricingPlanBox
     }
 }
 </script>

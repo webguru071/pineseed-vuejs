@@ -1,6 +1,6 @@
 <template>
-    <!--Testimonial Area -->
-    <section class="testimonial-area">  
+      <!-- Testimonial Slider -->
+      <section class="testimonial-area">  
         <div class="content-box text-center">
             <SectionMainTitle MainTitle = "Pineseed DOMAIN FOR YOU" />
             <SectionSubTitle SubTitle = "Choose the perfect solution for your business" />
@@ -9,38 +9,32 @@
             <!-- Testimonial Slider -->
             <div class="row">
               <div class="col-12 testimonial-slider">
-                <carousel :autoplay="true" :nav="false" :dots="true" :items="1" :autoplaySpeed= "2" >
-                  <div class="slider-item">
-                    <div class="left-box">
-                      <div class="avatar">
-                        <img src="assest/img/avatar.png" alt="avatar">
-                      </div>
-                      <h4 class="cmnter-name">Amber Stewart</h4>
-                      <h5 class="cmnter-post">Web Developer</h5>
-                    </div>
-                      <p class="comments"><i class="fas fa-quote-left"></i>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>      
-                  </div>
+                  <carousel :autoplay="true" :nav="false" :dots="true" :items="1" :autoplaySpeed= "2" >
+                    <TestimonialItem name="Amber Stewart" designation="Web Developer" comments="I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
+                    <TestimonialItem name="Amber Stewart" designation="Web Developer" comments="You must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
+                    <TestimonialItem name="Amber Stewart" designation="Web Developer" comments="She must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
+                    <TestimonialItem name="Amber Stewart" designation="Web Developer" comments="He must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
+                    <TestimonialItem name="Amber Stewart" designation="Web Developer" comments="You must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
                 </carousel>
               </div>
             </div>
             <!-- Testimonial Slider -->
-
             <!-- Logo Slider -->
             <div class="row">
               <div class="col-12 logo-slider">
                 <carousel :autoplay="true" :dots="false" :items="4" :autoplaySpeed= "3" :margin= "30" :responsive="{0:{items:2,nav:false},600:{items:3,nav:false},992:{items:4,nav:false}}" >
-                  <div class="brand-container-card">
-                    <img src="assest/img/leaf.png" alt="Slack" class="brand-img">
-                  </div>
-                  <div class="brand-container-card">
-                      <img src="assest/img/diamond.png" alt="Slack" class="brand-img">
-                  </div>
-                  <div class="brand-container-card">
-                      <img src="assest/img/traingle.png" alt="Slack" class="brand-img">
-                  </div>
-                  <div class="brand-container-card">
-                      <img src="assest/img/twisted.png" alt="Slack" class="brand-img">
-                  </div>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
+                  <LogoItem/>
                 </carousel>
               </div>
             </div>
@@ -50,21 +44,22 @@
 </template>
 
 <script>
-
 import SectionMainTitle from './SectionMainTitle'
 import SectionSubTitle from './SectionSubTitle'
 import carousel from 'vue-owl-carousel'
-
+import TestimonialItem from './testimonial-components/TestimonialItem'
+import LogoItem from './testimonial-components/LogoItem'
 export default {
-    name: 'Testimonial',
-    components: {
-      SectionMainTitle,
-      SectionSubTitle,
-      carousel
-    }
+  name:'Testimonial',
+  components:{
+    SectionMainTitle,
+    SectionSubTitle,
+    carousel,
+    TestimonialItem,
+    LogoItem
+  }
 }
 </script>
-
 <style>
 /* --Testimonial Area-- */
 .testimonial-area {
@@ -100,11 +95,11 @@ export default {
 	align-items: center;
 }
 .avatar {
-    width: 71px;
-    width: 71px;
-    border-radius: 50%;
-    border: 3px solid rgba(5, 123, 245, 0.1);
-    margin-bottom: 20px;
+  width: 71px;
+  width: 71px;
+  border-radius: 50%;
+  border: 3px solid rgba(5, 123, 245, 0.1);
+  margin-bottom: 20px;
 }
 .testimonial-area .left-box {
   width: 30%;
@@ -133,20 +128,20 @@ export default {
 	color: #cfcbcb;
 }
 @media only screen and (max-width: 991px){
-  .slider-item {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .testimonial-area .left-box {
-    padding-right: 0;
-    padding-bottom: 25px;
-  }
-  .testimonial-area .left-box, .comments {
-	  width: 100%;
-  }
+.slider-item {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-/* Logo Slider CSS */
+.testimonial-area .left-box {
+  padding-right: 0;
+  padding-bottom: 25px;
+}
+.testimonial-area .left-box, .comments {
+  width: 100%;
+}
+}
+/* --Logo Slider CSS-- */
 .logo-slider {
 	margin-top: 50px;
 }
@@ -172,6 +167,5 @@ export default {
 	margin: 0 auto;
 	width: 170px !important;
 }
-/* Logo Slider CSS */
-
+/* --Logo Slider CSS-- */
 </style>
