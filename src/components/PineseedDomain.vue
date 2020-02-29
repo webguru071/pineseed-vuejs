@@ -9,145 +9,16 @@
             <div class="tabs-button-area">
                 <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Individuals</a>
-                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Business</a>
-                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Resellers</a>
+                      <TabButton class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" tabButtonValue="Individuals" />
+                      <TabButton class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" tabButtonValue="Business" />
+                      <TabButton class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false" tabButtonValue="Resellers" />
                     </div>
                 </nav>
             </div>
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="tabs-items">
-                                <h3>Choose your domain name</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Choose your domain name now <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="tabs-items">
-                                <h3>Business</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Find your domain name now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="tabs-items">
-                                <h3>We make WordPress easy</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Make WordPress now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="tabs-items">
-                                <h3>Find your domain name</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Find your domain name<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="tabs-items">
-                                <h3>Choose your domain name 3</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Choose your domain name now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="tabs-items">
-                                <h3>Host your website</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Find your domain name now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="tabs-items">
-                                <h3>We make WordPress easy</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Make WordPress now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="tabs-items">
-                                <h3>Find your domain name</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Find your domain name now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="tabs-items">
-                                <h3>Choose your domain name</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Make WordPress now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="tabs-items">
-                                <h3>Choose your domain name</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Make WordPress now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="tabs-items">
-                                <h3>Choose your domain name</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Make WordPress now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="tabs-items">
-                                <h3>Choose your domain name</h3>
-                                <p>Every website starts with a great domain name.
-                                    HostCluster, as a leading domain registrar, offers you
-                                    a wide variety of domains. Register or transfer your
-                                    domain name in a snap.</p>
-                                    <a href="#" class="tab-button">Make WordPress now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+              <TabPane class="show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" />
+              <TabPane id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" />
+              <TabPane id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"/>
             </div>
             
         </div>
@@ -158,13 +29,17 @@
 
 import SectionMainTitle from './SectionMainTitle'
 import SectionSubTitle from './SectionSubTitle'
+import TabPane from './domain-components/TabPane'
+import TabButton from './domain-components/TabButton'
 
 export default {
-    name: 'PineseedDomain',
-    components: {
-      SectionMainTitle,
-      SectionSubTitle
-    }
+  name: 'PineseedDomain',
+  components: {
+    SectionMainTitle,
+    SectionSubTitle,
+    TabPane,
+    TabButton
+  }
 }
 </script>
 

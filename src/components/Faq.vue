@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="accordin-btn text-center">
-                        <a href="#!" class="btn btn-read-more pricing-btn">Explore Forum</a>
+                        <DefaultButton class="btn btn-read-more pricing-btn" buttonValue="Explore Forum" />
                     </div>
                 </div>
             </div>
@@ -97,12 +97,14 @@
 <script>
 import SectionMainTitle from './SectionMainTitle'
 import SectionSubTitle from './SectionSubTitle'
+import DefaultButton from './default-components/DefaultButton'
 
 export default {
     name: 'Faq',
     components: {
       SectionMainTitle,
-      SectionSubTitle
+      SectionSubTitle,
+      DefaultButton
     }
 }
 </script>

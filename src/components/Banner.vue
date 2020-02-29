@@ -7,13 +7,13 @@
                     <div class="banner-content">
                         <div class="banner-inner text-center">
                             <div class="banner-top-highlight">
-                                <p><span>25% Discount</span> on Every First Annual Purchase</p>
+                              <SpanInPara spanValue="25% Discount" paraValue="on Every First Annual Purchase" />
                             </div>   
                             <div class="banner-text">
-                                <h2>We Provide Most Trusted</h2>
-                                <h1>Web Hosting </h1>
-                                <h2>Starting at $9.99/month</h2>
-                                <p>For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!</p>
+                              <DefaultH2 title="We Provide Most Trusted"/>
+                              <DefaultH1 title="Web Hosting"/>
+                              <DefaultH2 title="Starting at $9.99/month"/>
+                              <DefaultParagraph defaultText="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!" />
                             </div>
                             <div class="banner-form text-center">
                                 <form action="#" class="domain-search-form mt-3">
@@ -36,11 +36,11 @@
                             </div>
                             <div class="form-bottom">
                                 <ul class="list-inline">
-                                    <li class="list-inline-item">com $19.99</li>
-                                    <li class="list-inline-item">.net $9.91</li>
-                                    <li class="list-inline-item">.au $12.54</li>
-                                    <li class="list-inline-item">.info $9.13</li>
-                                    <li class="list-inline-item desable">& much more</li>
+                                  <DomainExtension price="com $19.99"/>
+                                  <DomainExtension price=".net $9.91"/>
+                                  <DomainExtension price=".au $12.54"/>
+                                  <DomainExtension price=".info $9.13"/>
+                                  <DomainExtension class="desable" price="& much more"/>
                                 </ul>
                             </div>
                         </div>
@@ -52,8 +52,20 @@
 </template>
 
 <script>
+import DefaultParagraph from './default-components/DefaultParagraph'
+import DomainExtension from './banner-components/DomainExtension'
+import DefaultH1 from './default-components/DefaultH1'
+import DefaultH2 from './default-components/DefaultH2'
+import SpanInPara from './default-components/SpanInPara'
 export default {
- name: 'Banner'
+ name: 'Banner',
+ components:{
+   DefaultParagraph,
+   DomainExtension,
+   DefaultH1,
+   DefaultH2,
+   SpanInPara
+  }
 }
 </script>
 

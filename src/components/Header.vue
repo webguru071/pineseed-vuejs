@@ -7,31 +7,23 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                 <div class="top-address">
-                    <ul class="list-inline">
-                    <li class="list-inline-item">
-                        <i class="fas fa-headphones"></i
-                        ><a href="tel:+01 23 456 789">+01 23 456 789</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="far fa-envelope"></i
-                        ><a href="mailto:your mail@gmail.com"
-                        >yourmail@domain.com</a
-                        >
-                    </li>
-                    </ul>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><i class="fas fa-headphones"></i><router-link to="tel:+01 23 456 789">+01 23 456 789</router-link></li>
+                    <li class="list-inline-item"><i class="far fa-envelope"></i><router-link to="mailto:your mail@gmail.com">yourmail@domain.com</router-link></li>
+                  </ul>
                 </div>
                 </div>
                 <div class="col-lg-6 col-md-6 text-right">
                 <div class="top-signup-area text-lg-right">
                     <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a href="#!">LOGIN</a>
+                        <router-link to="#!">LOGIN</router-link>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#!">REGISTER</a>
+                        <router-link to="#!">REGISTER</router-link>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#!">HELP</a>
+                        <router-link to="#!">HELP</router-link>
                     </li>
                     </ul>
                 </div>
@@ -43,9 +35,7 @@
         <!-- Logo & Navber -->
         <nav class="site-navigation navbar navbar-expand-lg navbar-light">
             <div class="container">
-            <a class="navbar-brand" href="#"
-                ><img src="assest/img/logo.png" alt="img"
-            /></a>
+            <router-link class="navbar-brand" to="/"><img src="assest/img/logo.png" alt="img"/></router-link>
             <button
                 class="navbar-toggler"
                 type="button"
@@ -53,8 +43,7 @@
                 data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup"
                 aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
+                aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -67,7 +56,7 @@
                     <li class="nav-item"><router-link to="/blog" class="nav-link">Blog</router-link></li>
                     <li class="nav-item"><router-link to="/contact" class="nav-link">Contact</router-link></li>
                 </ul>
-                </div>
+              </div>
             </div>
         </nav>
     </header>

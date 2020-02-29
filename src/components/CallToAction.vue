@@ -5,18 +5,18 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="action-text">
-                            <h2>Start building your website today!</h2>
+                            <DefaultH2 title="Start building your website today!" />
                         </div>
                     </div>
                     <div class="col-lg-3  col-md-3 col-sm-12 col-12">
                         <div class="action-offer-text text-center">
-                            <h6>Starting At Only</h6>
-                            <h5>$2.75/mo*</h5>
+                            <DefaultH6 title="Starting At Only"/>
+                            <DefaultH5 title="$2.75/mo*"/>
                         </div>
                     </div>
                     <div class="col-lg-3  col-md-3 col-sm-12 col-12">
                         <div class="action-offer-btn">
-                            <a href="#!" class="btn btn-read-more call-btn">GET STARTED</a>
+                          <DefaultButton class="btn btn-read-more call-btn" buttonValue="GET STARTED" />
                         </div>
                     </div>
                 </div>
@@ -25,8 +25,18 @@
 </template>
 
 <script>
+import DefaultButton from './default-components/DefaultButton'
+import DefaultH2 from './default-components/DefaultH2'
+import DefaultH5 from './default-components/DefaultH5'
+import DefaultH6 from './default-components/DefaultH6'
 export default {
-    name: 'CallToAction'
+    name: 'CallToAction',
+    components:{
+      DefaultButton,
+      DefaultH2,
+      DefaultH5,
+      DefaultH6
+    }
 }
 </script>
 
