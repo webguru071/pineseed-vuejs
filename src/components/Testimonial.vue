@@ -75,11 +75,11 @@ export default {
 	bottom: 12px;
 }
 .owl-theme .owl-dots .owl-dot span, .owl-theme .owl-dots .owl-dot span {
-	background: #007fff;
+	background: #007fff!important;
   opacity: 0.25;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-	background: #007fff;
+	background: #007fff!important;
   opacity: 1;
 }
 .slider-item {
